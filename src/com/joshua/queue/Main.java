@@ -11,5 +11,9 @@ public class Main {
 	System.out.println("second " + t.dequeue());
 	System.out.println("third " + t.dequeue());
 	System.out.println("forth " + t.dequeue());
+	t.enqueue("Again!");
+	t.enqueue("Once more");
+	System.out.println(t.dequeue());
+	System.out.println(t.dequeue());
 	}
 }
